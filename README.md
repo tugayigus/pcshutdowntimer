@@ -4,6 +4,13 @@ Modern, minimalist shutdown timer application for Windows with a sleek dark inte
 
 ![App Preview](https://img.shields.io/badge/Windows-7%2B-blue) ![Electron](https://img.shields.io/badge/Electron-28.x-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="ss1.png" alt="Timer Setup" width="300">
+  <img src="ss2.png" alt="Timer Running" width="300">
+</div>
+
 ## ✨ Features
 
 - **⏰ Flexible Timer** - Set hours and minutes, or just enter minutes (auto-converts to H:M)

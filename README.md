@@ -32,7 +32,7 @@ Modern, minimalist shutdown timer application for Windows with a sleek dark inte
 
 1. **Download** the latest release
 2. **Extract** the zip file
-3. **Run** `PC Shutdown Timer.exe`
+3. **Run** `ShutdownTimer.exe`
 4. **Set** your timer and click START
 
 ## 🎮 How to Use

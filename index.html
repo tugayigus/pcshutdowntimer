@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shutdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="window">
+        <div class="titlebar">
+            <div class="titlebar-drag">
+                <svg class="power-icon" viewBox="0 0 20 20" fill="none">
+                    <path d="M10 2V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M14.5 4.5C16.5 6 17.5 8 17.5 10.5C17.5 14.6 14.1 18 10 18C5.9 18 2.5 14.6 2.5 10.5C2.5 8 3.5 6 5.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span>Shutdown Timer</span>
+            </div>
+            <div class="window-controls">
+                <button class="window-btn minimize" id="minimizeBtn">
+                    <svg viewBox="0 0 10 10"><path d="M0 5h10" stroke="currentColor"/></svg>
+                </button>
+                <button class="window-btn close" id="closeBtn">
+                    <svg viewBox="0 0 10 10"><path d="M0 0L10 10M10 0L0 10" stroke="currentColor"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="setup-view" id="setupView">
+                <div class="time-input-container">
+                    <div class="time-box">
+                        <input type="number" id="hoursInput" value="0" min="0">
+                        <span class="time-label">H</span>
+                    </div>
+                    <div class="time-colon">:</div>
+                    <div class="time-box">
+                        <input type="number" id="minutesInput" value="0" min="0">
+                        <span class="time-label">M</span>
+                    </div>
+                </div>
+                <button class="start-button" id="startBtn">
+                    <span>START</span>
+                </button>
+            </div>
+
+            <div class="timer-view hidden" id="timerView">
+                <div class="countdown-display">
+                    <div class="countdown-time" id="countdownTime">00:00:00</div>
+                    <div class="shutdown-info">System will shutdown at <span id="shutdownAt">00:00</span></div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <button class="cancel-button" id="cancelBtn">
+                    <span>CANCEL</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>

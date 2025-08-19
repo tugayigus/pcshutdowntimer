@@ -4,6 +4,14 @@ Modern, minimalist shutdown timer application for Windows with a sleek dark inte
 
 ![App Preview](https://img.shields.io/badge/Windows-7%2B-blue) ![Electron](https://img.shields.io/badge/Electron-28.x-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## 📥 Download
+
+<div align="center">
+  <a href="https://github.com/tugayigus/pcshutdowntimer/releases/download/v1.0.0/ShutdownTimer.exe">
+    <img src="https://img.shields.io/badge/Download-ShutdownTimer.exe-blue?style=for-the-badge&logo=windows" alt="Download">
+  </a>
+</div>
+
 ## 📸 Screenshots
 
 <div align="center">
